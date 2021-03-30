@@ -1,8 +1,12 @@
+Description: >
+    Final project for chapter 2 of Deploy a high-availability web app using CloudFormation
+    Deploy a high-availability web app using CloudFormation
+
 Parameters:
 
-    EnvironmentName:
-        Description: An environment name that will be prefixed to resource names
-        Type: String
+  EnvironmentName:
+      Description: An environment name that will be prefixed to resource names
+      Type: String
 
 Resources:
   LBSecGroup:
